@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    line-height:  1.65;
+    font-size: 1.2rem;
+    color:#393d41;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+h3{
+    color: #25a2c3;
+    font-weight: bold;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+em{
+    font-style: italic;
+}
+a{
+    color: #c8e7f0;
+}
+
+/*HEADER*/
+header{
+    padding: 2rem;
+    background-color: black;
+}
+header img{
+    width: 40%;
+}
+
+/*MAIN*/
+
+/*section*/
+main section{
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    padding: 2rem;
+    margin-bottom:  2rem;
+}
+section p{
+    margin-bottom: 1.5rem;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: #f04c2f;
+    border: none;
+    border-radius: 4px;
+    height: 2.5rem;
+    width: 30%;
+}
+
+/*article*/
+main article{
+    padding: 0 1.8rem;
+    
+}
+main article img{
+    border-radius: 100%;
+    width: 70%;
+    margin: 2rem 0;
+}
+
+ /*div*/
+ main div{
+    background-color: #e22d0e;
+    color: white;
+    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+    margin: 3rem 0 1rem 0;
+ }
+ main div p{
+     margin-top: 2rem;
+     line-height: 1.4rem;
+ }
+ main div span{
+     font-size: 0.8rem;
+ }
+
+ /*ASIDE*/
+ aside{
+     margin: 1rem 0;
+     padding: 1rem;
+ }
+aside article{
+    border: 1.5px solid #dee1e3;
+    border-radius: 2px;
+    margin: 2rem 1rem;
+}
+aside article p{
+    margin: 0 1rem 1.5rem 1rem;
+}
+aside img{
+    width: 100%;
+}
+aside p{
+    margin-bottom: 2rem;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #25a2c3;
+    padding: 1rem 1rem 3rem 1rem;
+}
+hr{
+    width: 40%;
+    height: 1px;
+    background-color: #c8e7f0;
+    border: none;
+}
+footer p{
+    color: #c8e7f0;
+    margin: 2rem 0;
+}
+footer i{
+    color: white;
+    margin-right: 3px;
+}
